@@ -61,5 +61,3 @@ func HealthHandler(c *gin.Context) {
 func TextHandler(c *gin.Context) {
 	c.String(http.StatusOK, *text)
 }
-
-
